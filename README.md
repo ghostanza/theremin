@@ -60,7 +60,7 @@ t.theremin.start();
 ```
 
 ### `.theremin.stop()`
-This removes the eventListeners for the mousemove event inside the container - effectively stopping the theremin from playing.
+This removes the eventListeners for the mousemove event inside the container and turns the theremin volume all the way down - effectively stopping the theremin from playing.
 
 **Example**:
 ```
