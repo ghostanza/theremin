@@ -19,6 +19,11 @@ t.theremize();
 t.theremin.start();
 ```
 
+## Demo
+A sample can be found [here on Codepen.io](https://codepen.io/nilbog/full/ZXLgMB/)
+
+Hover the mouse around inside the box to hear how it works.
+
 ## Functions
 ### `Object.prototype.theremize(options)`
 This function is responsible for setting up the object with the basic theremin setup and some additional functionality inside of the `.theremin` object that is created.
