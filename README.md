@@ -28,6 +28,18 @@ Hover the mouse around inside the box to hear how it works.
 ### `Object.prototype.theremize(options)`
 This function is responsible for setting up the object with the basic theremin setup and some additional functionality inside of the `.theremin` object that is created.
 
+**Example A:**
+```
+let t = document.getElementById('theremin');
+t.theremize();
+```
+
+**Example B:**
+```
+let t = document.getElementById('theremin');
+t.theremize({ wave: 'triangle', start: 500 });
+```
+
 #### Options
 - `wave`: controls the wave of the oscilator. This can be `'sine'`, `'triangle'`, `'sawtooth'`, or `'square'`
 - `start`: determines the starting frequency of the theremin. This will be the frequency that is played when your mouse is on the bottom of the container.
