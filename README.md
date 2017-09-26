@@ -5,6 +5,8 @@ When you initialize the theremin element and run `.theremin.start()`, it will ad
 
 Moving your mouse left to right in the container controls the volume. Moving up and down controls the pitch.
 
+*Note*: The pitch range is determined by the height of your theremin. The taller the object, the larger the range.
+
 
 ## Basic setup
 HTML:
@@ -92,3 +94,4 @@ t.theremin.wave('sine');
 ---
 ## TODO:
 - Add more features for filtering the sounds, etc.
+- Add a range option in the setup to determine the pitch range
