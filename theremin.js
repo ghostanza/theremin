@@ -1,7 +1,7 @@
 (function(){
 	Object.prototype.theremize = function(options){
 		let _ = window.AudioContext || window.webKitAudioContext,
-				ctx = new _(),
+			ctx = new _(),
 			g = ctx.createGain(),
 			o = ctx.createOscillator(),
 			startFreq = options && options.start || 30;
