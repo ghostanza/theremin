@@ -24,7 +24,7 @@ t.theremin.start();
 ## Demo
 A sample can be found [here on Codepen.io](https://codepen.io/nilbog/full/ZXLgMB/)
 
-Hover the mouse around inside the box to hear how it works.
+With your volume on, hover your mouse around inside the box to hear how it works. (*Note: full volume can be loud, so be careful*)
 
 ## Functions
 ### `Object.prototype.theremize(options)`
