@@ -76,3 +76,7 @@ This changes the wave type of the oscillator being used in the theremin.
 ```
 t.theremin.wave('sine');
 ```
+
+---
+## TODO:
+- Add more features for filtering the sounds, etc.
